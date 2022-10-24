@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F9B3DE27322F7200CF90FB /* seal.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 27F9B3DB27322F7200CF90FB /* seal.mp4 */; };
+		27F9B3DF27322F7200CF90FB /* hoaprox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27F9B3DC27322F7200CF90FB /* hoaprox.mp3 */; };
+		27F9B3E027322F7200CF90FB /* hermione.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27F9B3DD27322F7200CF90FB /* hermione.jpg */; };
+		27F9B3E22733C6E800CF90FB /* video-640x360.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 27F9B3E12733C6E800CF90FB /* video-640x360.mp4 */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* TAVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* TAVAppDelegate.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		671D869328A27D6B00F31AD2 /* TAVBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D869228A27D6B00F31AD2 /* TAVBaseViewController.m */; };
+		671D869628A2838F00F31AD2 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 671D869528A2838F00F31AD2 /* gif.gif */; };
+		671D869928A2874200F31AD2 /* TAVShiftingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D869828A2874200F31AD2 /* TAVShiftingViewController.m */; };
+		671D869C28A28D0500F31AD2 /* TAVCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D869B28A28D0500F31AD2 /* TAVCutViewController.m */; };
+		67208DBD28AB346D000F021C /* TAVExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67208DBC28AB346D000F021C /* TAVExportViewController.m */; };
+		672C9AB428D0651A00BC10C7 /* lut1.png in Resources */ = {isa = PBXBuildFile; fileRef = 672C9AB328D0651A00BC10C7 /* lut1.png */; };
+		672C9AB728D0657A00BC10C7 /* TAVMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672C9AB528D0656D00BC10C7 /* TAVMedia.framework */; };
+		672C9AB828D0657A00BC10C7 /* TAVMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 672C9AB528D0656D00BC10C7 /* TAVMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6745DF5328DB026100BB68E8 /* TAVPAGTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6745DF5228DB026100BB68E8 /* TAVPAGTemplateViewController.m */; };
+		6745DF5528DB02F000BB68E8 /* video.pag in Resources */ = {isa = PBXBuildFile; fileRef = 6745DF5428DB02F000BB68E8 /* video.pag */; };
+		675A76F328AE3CB800212DCA /* font.pag in Resources */ = {isa = PBXBuildFile; fileRef = 675A76F228AE3CB800212DCA /* font.pag */; };
+		679D84FA28AE65FA00164B45 /* FFmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679D84F628AE65F000164B45 /* FFmpeg.xcframework */; };
+		679D84FB28AE65FA00164B45 /* FFmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 679D84F628AE65F000164B45 /* FFmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		67AE605C28A630DC00ADDD1F /* TAVAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE605B28A630DC00ADDD1F /* TAVAudioViewController.m */; };
+		67AE605F28A64C2B00ADDD1F /* TAVTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE605E28A64C2B00ADDD1F /* TAVTemplateViewController.m */; };
+		67AE606A28A652F500ADDD1F /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606028A652F500ADDD1F /* 2.mp4 */; };
+		67AE606B28A652F500ADDD1F /* ZC2.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606128A652F500ADDD1F /* ZC2.pag */; };
+		67AE606C28A652F500ADDD1F /* ZC1.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606228A652F500ADDD1F /* ZC1.pag */; };
+		67AE606D28A652F500ADDD1F /* PW.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606328A652F500ADDD1F /* PW.pag */; };
+		67AE606E28A652F500ADDD1F /* 4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606428A652F500ADDD1F /* 4.mp4 */; };
+		67AE606F28A652F500ADDD1F /* FW.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606528A652F500ADDD1F /* FW.pag */; };
+		67AE607028A652F500ADDD1F /* ZC3.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606628A652F500ADDD1F /* ZC3.pag */; };
+		67AE607128A652F500ADDD1F /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606728A652F500ADDD1F /* 1.mp4 */; };
+		67AE607228A652F500ADDD1F /* PT.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606828A652F500ADDD1F /* PT.pag */; };
+		67AE607328A652F500ADDD1F /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606928A652F500ADDD1F /* 3.mp4 */; };
+		67E1E80F28AA231D005D3DF4 /* background.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E80E28AA231D005D3DF4 /* background.pag */; };
+		67E1E81428AA5FE7005D3DF4 /* TAVGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E81328AA5FE7005D3DF4 /* TAVGeneratorViewController.m */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BCDC820D2795602B00C34827 /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDC820C2795602B00C34827 /* PcmPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67208DCF28ABB518000F021C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				679D84FB28AE65FA00164B45 /* FFmpeg.xcframework in Embed Frameworks */,
+				672C9AB828D0657A00BC10C7 /* TAVMedia.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27F9B3DB27322F7200CF90FB /* seal.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seal.mp4; sourceTree = "<group>"; };
+		27F9B3DC27322F7200CF90FB /* hoaprox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hoaprox.mp3; sourceTree = "<group>"; };
+		27F9B3DD27322F7200CF90FB /* hermione.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hermione.jpg; sourceTree = "<group>"; };
+		27F9B3E12733C6E800CF90FB /* video-640x360.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "video-640x360.mp4"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* TAVMediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAVMediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F595195388D20070C39A /* TAVMediaDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TAVMediaDemo-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* TAVMediaDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TAVMediaDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* TAVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* TAVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		671D869128A27D6B00F31AD2 /* TAVBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVBaseViewController.h; sourceTree = "<group>"; };
+		671D869228A27D6B00F31AD2 /* TAVBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVBaseViewController.m; sourceTree = "<group>"; };
+		671D869528A2838F00F31AD2 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		671D869728A2874200F31AD2 /* TAVShiftingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVShiftingViewController.h; sourceTree = "<group>"; };
+		671D869828A2874200F31AD2 /* TAVShiftingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVShiftingViewController.m; sourceTree = "<group>"; };
+		671D869A28A28D0500F31AD2 /* TAVCutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVCutViewController.h; sourceTree = "<group>"; };
+		671D869B28A28D0500F31AD2 /* TAVCutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVCutViewController.m; sourceTree = "<group>"; };
+		67208DBB28AB346D000F021C /* TAVExportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVExportViewController.h; sourceTree = "<group>"; };
+		67208DBC28AB346D000F021C /* TAVExportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVExportViewController.m; sourceTree = "<group>"; };
+		672C9AB328D0651A00BC10C7 /* lut1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut1.png; sourceTree = "<group>"; };
+		672C9AB528D0656D00BC10C7 /* TAVMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TAVMedia.framework; sourceTree = "<group>"; };
+		6745DF5128DB026100BB68E8 /* TAVPAGTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAVPAGTemplateViewController.h; sourceTree = "<group>"; };
+		6745DF5228DB026100BB68E8 /* TAVPAGTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAVPAGTemplateViewController.m; sourceTree = "<group>"; };
+		6745DF5428DB02F000BB68E8 /* video.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.pag; sourceTree = "<group>"; };
+		675A76F228AE3CB800212DCA /* font.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.pag; sourceTree = "<group>"; };
+		679D84F628AE65F000164B45 /* FFmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FFmpeg.xcframework; sourceTree = "<group>"; };
+		67AE605A28A630DC00ADDD1F /* TAVAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVAudioViewController.h; sourceTree = "<group>"; };
+		67AE605B28A630DC00ADDD1F /* TAVAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVAudioViewController.m; sourceTree = "<group>"; };
+		67AE605D28A64C2B00ADDD1F /* TAVTemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVTemplateViewController.h; sourceTree = "<group>"; };
+		67AE605E28A64C2B00ADDD1F /* TAVTemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVTemplateViewController.m; sourceTree = "<group>"; };
+		67AE606028A652F500ADDD1F /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		67AE606128A652F500ADDD1F /* ZC2.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZC2.pag; sourceTree = "<group>"; };
+		67AE606228A652F500ADDD1F /* ZC1.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZC1.pag; sourceTree = "<group>"; };
+		67AE606328A652F500ADDD1F /* PW.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = PW.pag; sourceTree = "<group>"; };
+		67AE606428A652F500ADDD1F /* 4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.mp4; sourceTree = "<group>"; };
+		67AE606528A652F500ADDD1F /* FW.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = FW.pag; sourceTree = "<group>"; };
+		67AE606628A652F500ADDD1F /* ZC3.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZC3.pag; sourceTree = "<group>"; };
+		67AE606728A652F500ADDD1F /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		67AE606828A652F500ADDD1F /* PT.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = PT.pag; sourceTree = "<group>"; };
+		67AE606928A652F500ADDD1F /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		67E1E80E28AA231D005D3DF4 /* background.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.pag; sourceTree = "<group>"; };
+		67E1E81228AA5FE7005D3DF4 /* TAVGeneratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVGeneratorViewController.h; sourceTree = "<group>"; };
+		67E1E81328AA5FE7005D3DF4 /* TAVGeneratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVGeneratorViewController.m; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCDC820B27955FDA00C34827 /* PcmPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
+		BCDC820C2795602B00C34827 /* PcmPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679D84FA28AE65FA00164B45 /* FFmpeg.xcframework in Frameworks */,
+				672C9AB728D0657A00BC10C7 /* TAVMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F9B3DA27322F7200CF90FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6745DF5428DB02F000BB68E8 /* video.pag */,
+				67E1E80E28AA231D005D3DF4 /* background.pag */,
+				675A76F228AE3CB800212DCA /* font.pag */,
+				67AE606728A652F500ADDD1F /* 1.mp4 */,
+				672C9AB328D0651A00BC10C7 /* lut1.png */,
+				67AE606028A652F500ADDD1F /* 2.mp4 */,
+				67AE606928A652F500ADDD1F /* 3.mp4 */,
+				67AE606428A652F500ADDD1F /* 4.mp4 */,
+				67AE606528A652F500ADDD1F /* FW.pag */,
+				67AE606828A652F500ADDD1F /* PT.pag */,
+				67AE606328A652F500ADDD1F /* PW.pag */,
+				67AE606228A652F500ADDD1F /* ZC1.pag */,
+				67AE606128A652F500ADDD1F /* ZC2.pag */,
+				67AE606628A652F500ADDD1F /* ZC3.pag */,
+				671D869528A2838F00F31AD2 /* gif.gif */,
+				27F9B3E12733C6E800CF90FB /* video-640x360.mp4 */,
+				27F9B3DB27322F7200CF90FB /* seal.mp4 */,
+				27F9B3DC27322F7200CF90FB /* hoaprox.mp3 */,
+				27F9B3DD27322F7200CF90FB /* hermione.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				6003F593195388D20070C39A /* TAVMediaDemo */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* TAVMediaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				679D84F628AE65F000164B45 /* FFmpeg.xcframework */,
+				672C9AB528D0656D00BC10C7 /* TAVMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* TAVMediaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				671D869428A2814D00F31AD2 /* DemoVC */,
+				6003F59C195388D20070C39A /* TAVAppDelegate.h */,
+				6003F59D195388D20070C39A /* TAVAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				27F9B3DA27322F7200CF90FB /* Resources */,
+				6003F594195388D20070C39A /* Supporting Files */,
+				BCDC820B27955FDA00C34827 /* PcmPlayer.h */,
+				BCDC820C2795602B00C34827 /* PcmPlayer.m */,
+			);
+			path = TAVMediaDemo;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* TAVMediaDemo-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* TAVMediaDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		671D869428A2814D00F31AD2 /* DemoVC */ = {
+			isa = PBXGroup;
+			children = (
+				6745DF5128DB026100BB68E8 /* TAVPAGTemplateViewController.h */,
+				6745DF5228DB026100BB68E8 /* TAVPAGTemplateViewController.m */,
+				671D869128A27D6B00F31AD2 /* TAVBaseViewController.h */,
+				671D869228A27D6B00F31AD2 /* TAVBaseViewController.m */,
+				671D869728A2874200F31AD2 /* TAVShiftingViewController.h */,
+				671D869828A2874200F31AD2 /* TAVShiftingViewController.m */,
+				671D869A28A28D0500F31AD2 /* TAVCutViewController.h */,
+				671D869B28A28D0500F31AD2 /* TAVCutViewController.m */,
+				67AE605A28A630DC00ADDD1F /* TAVAudioViewController.h */,
+				67AE605B28A630DC00ADDD1F /* TAVAudioViewController.m */,
+				67AE605D28A64C2B00ADDD1F /* TAVTemplateViewController.h */,
+				67AE605E28A64C2B00ADDD1F /* TAVTemplateViewController.m */,
+				67E1E81228AA5FE7005D3DF4 /* TAVGeneratorViewController.h */,
+				67E1E81328AA5FE7005D3DF4 /* TAVGeneratorViewController.m */,
+				67208DBB28AB346D000F021C /* TAVExportViewController.h */,
+				67208DBC28AB346D000F021C /* TAVExportViewController.m */,
+			);
+			path = DemoVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* TAVMediaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TAVMediaDemo" */;
+			buildPhases = (
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				67208DCF28ABB518000F021C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAVMediaDemo;
+			productName = TAVMediaDemo;
+			productReference = 6003F58A195388D20070C39A /* TAVMediaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TAV;
+				LastUpgradeCheck = 1310;
+				ORGANIZATIONNAME = paranoid2006;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = A25BQKLXTS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "TAVMediaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* TAVMediaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AE606E28A652F500ADDD1F /* 4.mp4 in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				67AE607228A652F500ADDD1F /* PT.pag in Resources */,
+				67AE606C28A652F500ADDD1F /* ZC1.pag in Resources */,
+				27F9B3DF27322F7200CF90FB /* hoaprox.mp3 in Resources */,
+				671D869628A2838F00F31AD2 /* gif.gif in Resources */,
+				6745DF5528DB02F000BB68E8 /* video.pag in Resources */,
+				67AE607128A652F500ADDD1F /* 1.mp4 in Resources */,
+				67AE606A28A652F500ADDD1F /* 2.mp4 in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				675A76F328AE3CB800212DCA /* font.pag in Resources */,
+				67AE607328A652F500ADDD1F /* 3.mp4 in Resources */,
+				27F9B3DE27322F7200CF90FB /* seal.mp4 in Resources */,
+				27F9B3E027322F7200CF90FB /* hermione.jpg in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				672C9AB428D0651A00BC10C7 /* lut1.png in Resources */,
+				67E1E80F28AA231D005D3DF4 /* background.pag in Resources */,
+				67AE606B28A652F500ADDD1F /* ZC2.pag in Resources */,
+				27F9B3E22733C6E800CF90FB /* video-640x360.mp4 in Resources */,
+				67AE607028A652F500ADDD1F /* ZC3.pag in Resources */,
+				67AE606D28A652F500ADDD1F /* PW.pag in Resources */,
+				67AE606F28A652F500ADDD1F /* FW.pag in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* TAVAppDelegate.m in Sources */,
+				6745DF5328DB026100BB68E8 /* TAVPAGTemplateViewController.m in Sources */,
+				671D869C28A28D0500F31AD2 /* TAVCutViewController.m in Sources */,
+				67208DBD28AB346D000F021C /* TAVExportViewController.m in Sources */,
+				67E1E81428AA5FE7005D3DF4 /* TAVGeneratorViewController.m in Sources */,
+				67AE605C28A630DC00ADDD1F /* TAVAudioViewController.m in Sources */,
+				671D869928A2874200F31AD2 /* TAVShiftingViewController.m in Sources */,
+				67AE605F28A64C2B00ADDD1F /* TAVTemplateViewController.m in Sources */,
+				671D869328A27D6B00F31AD2 /* TAVBaseViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				BCDC820D2795602B00C34827 /* PcmPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_VEXING_PARSE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25BQKLXTS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "TAVMediaDemo/TAVMediaDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-w",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreML\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"IOSurface\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"Metal\"",
+					"-framework",
+					"\"MetalPerformanceShaders\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"TAVMedia\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.tavmedia.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_WORKSPACE = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				CLANG_WARN_VEXING_PARSE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A25BQKLXTS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "TAVMediaDemo/TAVMediaDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.tavmedia.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_WORKSPACE = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "TAVMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TAVMediaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

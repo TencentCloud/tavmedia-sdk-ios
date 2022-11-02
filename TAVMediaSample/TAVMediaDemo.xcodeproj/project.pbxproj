@@ -21,13 +21,9 @@
 		671D869C28A28D0500F31AD2 /* TAVCutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D869B28A28D0500F31AD2 /* TAVCutViewController.m */; };
 		67208DBD28AB346D000F021C /* TAVExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67208DBC28AB346D000F021C /* TAVExportViewController.m */; };
 		672C9AB428D0651A00BC10C7 /* lut1.png in Resources */ = {isa = PBXBuildFile; fileRef = 672C9AB328D0651A00BC10C7 /* lut1.png */; };
-		672C9AB728D0657A00BC10C7 /* TAVMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672C9AB528D0656D00BC10C7 /* TAVMedia.framework */; };
-		672C9AB828D0657A00BC10C7 /* TAVMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 672C9AB528D0656D00BC10C7 /* TAVMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6745DF5328DB026100BB68E8 /* TAVPAGTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6745DF5228DB026100BB68E8 /* TAVPAGTemplateViewController.m */; };
 		6745DF5528DB02F000BB68E8 /* video.pag in Resources */ = {isa = PBXBuildFile; fileRef = 6745DF5428DB02F000BB68E8 /* video.pag */; };
 		675A76F328AE3CB800212DCA /* font.pag in Resources */ = {isa = PBXBuildFile; fileRef = 675A76F228AE3CB800212DCA /* font.pag */; };
-		679D84FA28AE65FA00164B45 /* FFmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679D84F628AE65F000164B45 /* FFmpeg.xcframework */; };
-		679D84FB28AE65FA00164B45 /* FFmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 679D84F628AE65F000164B45 /* FFmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		67AE605C28A630DC00ADDD1F /* TAVAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE605B28A630DC00ADDD1F /* TAVAudioViewController.m */; };
 		67AE605F28A64C2B00ADDD1F /* TAVTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AE605E28A64C2B00ADDD1F /* TAVTemplateViewController.m */; };
 		67AE606A28A652F500ADDD1F /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606028A652F500ADDD1F /* 2.mp4 */; };
@@ -42,6 +38,8 @@
 		67AE607328A652F500ADDD1F /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606928A652F500ADDD1F /* 3.mp4 */; };
 		67E1E80F28AA231D005D3DF4 /* background.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E80E28AA231D005D3DF4 /* background.pag */; };
 		67E1E81428AA5FE7005D3DF4 /* TAVGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E81328AA5FE7005D3DF4 /* TAVGeneratorViewController.m */; };
+		8595F5EB29129D1F005CCB66 /* FFmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8595F5E929129D1F005CCB66 /* FFmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8595F5EC29129D1F005CCB66 /* TAVMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8595F5EA29129D1F005CCB66 /* TAVMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BCDC820D2795602B00C34827 /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDC820C2795602B00C34827 /* PcmPlayer.m */; };
 /* End PBXBuildFile section */
@@ -53,8 +51,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				679D84FB28AE65FA00164B45 /* FFmpeg.xcframework in Embed Frameworks */,
-				672C9AB828D0657A00BC10C7 /* TAVMedia.framework in Embed Frameworks */,
+				8595F5EB29129D1F005CCB66 /* FFmpeg.xcframework in Embed Frameworks */,
+				8595F5EC29129D1F005CCB66 /* TAVMedia.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,12 +82,10 @@
 		67208DBB28AB346D000F021C /* TAVExportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVExportViewController.h; sourceTree = "<group>"; };
 		67208DBC28AB346D000F021C /* TAVExportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVExportViewController.m; sourceTree = "<group>"; };
 		672C9AB328D0651A00BC10C7 /* lut1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lut1.png; sourceTree = "<group>"; };
-		672C9AB528D0656D00BC10C7 /* TAVMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TAVMedia.framework; sourceTree = "<group>"; };
 		6745DF5128DB026100BB68E8 /* TAVPAGTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAVPAGTemplateViewController.h; sourceTree = "<group>"; };
 		6745DF5228DB026100BB68E8 /* TAVPAGTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAVPAGTemplateViewController.m; sourceTree = "<group>"; };
 		6745DF5428DB02F000BB68E8 /* video.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.pag; sourceTree = "<group>"; };
 		675A76F228AE3CB800212DCA /* font.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.pag; sourceTree = "<group>"; };
-		679D84F628AE65F000164B45 /* FFmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FFmpeg.xcframework; sourceTree = "<group>"; };
 		67AE605A28A630DC00ADDD1F /* TAVAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVAudioViewController.h; sourceTree = "<group>"; };
 		67AE605B28A630DC00ADDD1F /* TAVAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVAudioViewController.m; sourceTree = "<group>"; };
 		67AE605D28A64C2B00ADDD1F /* TAVTemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVTemplateViewController.h; sourceTree = "<group>"; };
@@ -107,6 +103,8 @@
 		67E1E80E28AA231D005D3DF4 /* background.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.pag; sourceTree = "<group>"; };
 		67E1E81228AA5FE7005D3DF4 /* TAVGeneratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVGeneratorViewController.h; sourceTree = "<group>"; };
 		67E1E81328AA5FE7005D3DF4 /* TAVGeneratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVGeneratorViewController.m; sourceTree = "<group>"; };
+		8595F5E929129D1F005CCB66 /* FFmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FFmpeg.xcframework; path = ../framework/FFmpeg.xcframework; sourceTree = "<group>"; };
+		8595F5EA29129D1F005CCB66 /* TAVMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TAVMedia.framework; path = ../framework/TAVMedia.framework; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCDC820B27955FDA00C34827 /* PcmPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
 		BCDC820C2795602B00C34827 /* PcmPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
@@ -117,8 +115,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				679D84FA28AE65FA00164B45 /* FFmpeg.xcframework in Frameworks */,
-				672C9AB728D0657A00BC10C7 /* TAVMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,8 +167,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				679D84F628AE65F000164B45 /* FFmpeg.xcframework */,
-				672C9AB528D0656D00BC10C7 /* TAVMedia.framework */,
+				8595F5E929129D1F005CCB66 /* FFmpeg.xcframework */,
+				8595F5EA29129D1F005CCB66 /* TAVMedia.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -467,6 +463,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../framework",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -542,6 +539,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../framework",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;

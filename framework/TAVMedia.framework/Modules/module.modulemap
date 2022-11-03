@@ -1,0 +1,6 @@
+framework module TAVMedia {
+  umbrella header "TAVMedia-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -36,10 +36,11 @@
 		67AE607128A652F500ADDD1F /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606728A652F500ADDD1F /* 1.mp4 */; };
 		67AE607228A652F500ADDD1F /* PT.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606828A652F500ADDD1F /* PT.pag */; };
 		67AE607328A652F500ADDD1F /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 67AE606928A652F500ADDD1F /* 3.mp4 */; };
+		67D798452913BB2300B4DA06 /* TAVMedia.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D7984329139E4000B4DA06 /* TAVMedia.xcframework */; };
+		67D798462913BB2300B4DA06 /* TAVMedia.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 67D7984329139E4000B4DA06 /* TAVMedia.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		67E1E80F28AA231D005D3DF4 /* background.pag in Resources */ = {isa = PBXBuildFile; fileRef = 67E1E80E28AA231D005D3DF4 /* background.pag */; };
 		67E1E81428AA5FE7005D3DF4 /* TAVGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1E81328AA5FE7005D3DF4 /* TAVGeneratorViewController.m */; };
 		8595F5EB29129D1F005CCB66 /* FFmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8595F5E929129D1F005CCB66 /* FFmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8595F5EC29129D1F005CCB66 /* TAVMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8595F5EA29129D1F005CCB66 /* TAVMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		BCDC820D2795602B00C34827 /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDC820C2795602B00C34827 /* PcmPlayer.m */; };
 /* End PBXBuildFile section */
@@ -51,8 +52,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				67D798462913BB2300B4DA06 /* TAVMedia.xcframework in Embed Frameworks */,
 				8595F5EB29129D1F005CCB66 /* FFmpeg.xcframework in Embed Frameworks */,
-				8595F5EC29129D1F005CCB66 /* TAVMedia.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,11 +101,11 @@
 		67AE606728A652F500ADDD1F /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 		67AE606828A652F500ADDD1F /* PT.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = PT.pag; sourceTree = "<group>"; };
 		67AE606928A652F500ADDD1F /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		67D7984329139E4000B4DA06 /* TAVMedia.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TAVMedia.xcframework; path = ../framework/TAVMedia.xcframework; sourceTree = "<group>"; };
 		67E1E80E28AA231D005D3DF4 /* background.pag */ = {isa = PBXFileReference; lastKnownFileType = file; path = background.pag; sourceTree = "<group>"; };
 		67E1E81228AA5FE7005D3DF4 /* TAVGeneratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAVGeneratorViewController.h; sourceTree = "<group>"; };
 		67E1E81328AA5FE7005D3DF4 /* TAVGeneratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAVGeneratorViewController.m; sourceTree = "<group>"; };
 		8595F5E929129D1F005CCB66 /* FFmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FFmpeg.xcframework; path = ../framework/FFmpeg.xcframework; sourceTree = "<group>"; };
-		8595F5EA29129D1F005CCB66 /* TAVMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TAVMedia.framework; path = ../framework/TAVMedia.framework; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCDC820B27955FDA00C34827 /* PcmPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
 		BCDC820C2795602B00C34827 /* PcmPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D798452913BB2300B4DA06 /* TAVMedia.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				8595F5E929129D1F005CCB66 /* FFmpeg.xcframework */,
-				8595F5EA29129D1F005CCB66 /* TAVMedia.framework */,
+				67D7984329139E4000B4DA06 /* TAVMedia.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -194,12 +194,12 @@ __attribute__((visibility("default")))
 /**
  * Replace the text attributes of the specified layer index.
  */
-- (BOOL)replace:(int)editableIndex textAttribute:(TAVTextAttribute *)attribute;
+- (BOOL)replace:(int)editableIndex textAttribute:(TAVPAGTextAttribute *)attribute;
 
 /**
  * Returns the text attribute of the specified editable index.
  */
-- (TAVTextAttribute *)getTextAttribute:(int)editableIndex;
+- (TAVPAGTextAttribute *)getTextAttribute:(int)editableIndex;
 
 /**
  * Returns an array of editable info that lie under the specified point. The point is in pixels and from

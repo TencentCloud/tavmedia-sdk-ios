@@ -20,7 +20,7 @@
 #import "CocoaUtils.h"
 
 __attribute__((visibility("default")))
-@interface TAVTextAttribute : NSObject
+@interface TAVPAGTextAttribute : NSObject
 
 /**
  * The text's fill color.

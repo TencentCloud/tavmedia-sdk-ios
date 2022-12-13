@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/TAVEffect.h</key>
 		<data>
-		9UdXSEMnIFU/BUWHmvKLr8eoTPE=
+		MQ2O1EtSzEGEwJm+AoXI2d/PvOI=
 		</data>
 		<key>Headers/TAVExport.h</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Headers/TAVMedia-umbrella.h</key>
 		<data>
-		ftJcEJG505BwLQh8M63YjHFfH2I=
+		JgEtGrVyWtqvT944kiVUFdLUGfw=
 		</data>
 		<key>Headers/TAVMedia.h</key>
 		<data>
-		GfEYHyI1ORpWmyQTuoNMEF4apRE=
+		CncRp4rCnFcSasbY6KMzd/YfJ4U=
 		</data>
 		<key>Headers/TAVPAGEditableInfo.h</key>
 		<data>
-		1GD8mif7cSwtlynCjWy/N04RWDA=
+		+wQ5zeV/kmi8ZFHwWut/naAjzrQ=
 		</data>
 		<key>Headers/TAVPAGImageLayerInfo.h</key>
 		<data>
@@ -71,6 +71,10 @@
 		<key>Headers/TAVPAGImageReplacement.h</key>
 		<data>
 		ot3kN4L3svRe8jjaiOhD+r/SoWE=
+		</data>
+		<key>Headers/TAVPAGTextAttribute.h</key>
+		<data>
+		pRjgyekVO0reCJkLIcCLRnE+vkI=
 		</data>
 		<key>Headers/TAVProperty.h</key>
 		<data>
@@ -83,10 +87,6 @@
 		<key>Headers/TAVSurface.h</key>
 		<data>
 		706Msz3oQUPIfDwGIkQ8teflYdI=
-		</data>
-		<key>Headers/TAVTextAttribute.h</key>
-		<data>
-		jMQMAOkOiZ8+AJ2C8c+u6OuenO8=
 		</data>
 		<key>Headers/TAVTimeStretchMode.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Qm/8LeeBHIi0ftHj8hxroiiGT/E=
+		/DM9X4kAypguvTPzuImIC+5f4Y8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -189,11 +189,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9UdXSEMnIFU/BUWHmvKLr8eoTPE=
+			MQ2O1EtSzEGEwJm+AoXI2d/PvOI=
 			</data>
 			<key>hash2</key>
 			<data>
-			MykI3JauhA9edMTsZUt808GXPw/h1PHytMGG8DqJW5E=
+			lt0Cu48fqC1qR2D4NzWYEJh4RV7oB/erypjwV713kk8=
 			</data>
 		</dict>
 		<key>Headers/TAVExport.h</key>
@@ -255,33 +255,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ftJcEJG505BwLQh8M63YjHFfH2I=
+			JgEtGrVyWtqvT944kiVUFdLUGfw=
 			</data>
 			<key>hash2</key>
 			<data>
-			TYzZ6yb/LYkOZokKDoSbfgF4L2MdO7AXewTsIyPJJtQ=
+			3xnTRbOesnlBsHj8IQ2cMmkEGyhGjduJAsBr7jQDlL8=
 			</data>
 		</dict>
 		<key>Headers/TAVMedia.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GfEYHyI1ORpWmyQTuoNMEF4apRE=
+			CncRp4rCnFcSasbY6KMzd/YfJ4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			u+dbnGKjYcDa9elVoxM6f7eZRyv8GPzuAf9DQEYHUyE=
+			ltIqQo+JVXztxwMuqO3E0sY7W5bBk0P1mCCaiZftJ3g=
 			</data>
 		</dict>
 		<key>Headers/TAVPAGEditableInfo.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1GD8mif7cSwtlynCjWy/N04RWDA=
+			+wQ5zeV/kmi8ZFHwWut/naAjzrQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			OIUyVbz6oRP3wmhfyK/qKfa4y0HIr/PqCkkVuEaeofQ=
+			GtcCynebBPTggrnXBSOkCqSGQK9DgjxDEay7pzkkx5I=
 			</data>
 		</dict>
 		<key>Headers/TAVPAGImageLayerInfo.h</key>
@@ -304,6 +304,17 @@
 			<key>hash2</key>
 			<data>
 			pW9dTSpOnAN8IVccGD33Q8wlsUzgFenrNZmpXD8icN8=
+			</data>
+		</dict>
+		<key>Headers/TAVPAGTextAttribute.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pRjgyekVO0reCJkLIcCLRnE+vkI=
+			</data>
+			<key>hash2</key>
+			<data>
+			yH0lIiMsXwMH5aRR8VKhguYNJfEiu/NmmEvpPPUyQME=
 			</data>
 		</dict>
 		<key>Headers/TAVProperty.h</key>
@@ -337,17 +348,6 @@
 			<key>hash2</key>
 			<data>
 			QRgIDTUBlqiEow+uEOw8InY2+3wAC2l0NIeLt8zwqOU=
-			</data>
-		</dict>
-		<key>Headers/TAVTextAttribute.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jMQMAOkOiZ8+AJ2C8c+u6OuenO8=
-			</data>
-			<key>hash2</key>
-			<data>
-			byY5qE7enWRv2FxW25Zw/hNMinTjCIz6b5cfADz9/cw=
 			</data>
 		</dict>
 		<key>Headers/TAVTimeStretchMode.h</key>

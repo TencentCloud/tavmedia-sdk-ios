@@ -16,7 +16,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-#import "TAVTextAttribute.h"
+#import "TAVPAGTextAttribute.h"
 #import "TAVPAGImageLayerInfo.h"
 
 typedef enum {
@@ -67,6 +67,6 @@ __attribute__((visibility("default")))
 /**
  * The raw text attributes of specified index.
  */
-@property (strong, nonatomic) TAVTextAttribute *attribute;
+@property (strong, nonatomic) TAVPAGTextAttribute *attribute;
 
 @end

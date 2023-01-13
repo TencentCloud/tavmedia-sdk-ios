@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = "Tencent TAVGroup"
 
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/TencentCloud/tavmedia-sdk-ios.git", :tag => "2.0.41" }
+  spec.source       = { :git => "https://github.com/TencentCloud/tavmedia-sdk-ios.git", :tag => "2.0.106" }
 
   spec.frameworks = ["UIKit", "CoreFoundation", "QuartzCore", "CoreGraphics", "CoreText", "OpenGLES",
                       "VideoToolbox", "CoreMedia", "JavaScriptCore", "AVFoundation", "CoreML",

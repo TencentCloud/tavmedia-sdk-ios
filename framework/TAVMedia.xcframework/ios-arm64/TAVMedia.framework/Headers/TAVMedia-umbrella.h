@@ -21,6 +21,7 @@
 #import "TAVExportConfig.h"
 #import "TAVExportErrorCode.h"
 #import "TAVExportType.h"
+#import "TAVFont.h"
 #import "TAVLicense.h"
 #import "TAVMedia.h"
 #import "TAVPAGEditableInfo.h"

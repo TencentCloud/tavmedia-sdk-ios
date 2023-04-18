@@ -48,13 +48,17 @@
 		<data>
 		QR0p4i8yjD8tIo6PD16WPbWLmjM=
 		</data>
+		<key>Headers/TAVFont.h</key>
+		<data>
+		IlPP6b76sDqmfGX+YR4lliAuTYI=
+		</data>
 		<key>Headers/TAVLicense.h</key>
 		<data>
 		6ZpL/39xfoslCVjldUSLsDt0Oy4=
 		</data>
 		<key>Headers/TAVMedia-umbrella.h</key>
 		<data>
-		JgEtGrVyWtqvT944kiVUFdLUGfw=
+		XUPBm8E8vG/qQ3IrpHH/NLdKM3A=
 		</data>
 		<key>Headers/TAVMedia.h</key>
 		<data>
@@ -240,6 +244,17 @@
 			+1xJID/44gc6QrZIU4omrs4VWHhzVqbtRrEuiN30yVg=
 			</data>
 		</dict>
+		<key>Headers/TAVFont.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IlPP6b76sDqmfGX+YR4lliAuTYI=
+			</data>
+			<key>hash2</key>
+			<data>
+			AZVO/9FlOPl9Vhk473x55bWTNTqR8642HAAGnC+Bsdk=
+			</data>
+		</dict>
 		<key>Headers/TAVLicense.h</key>
 		<dict>
 			<key>hash</key>
@@ -255,11 +270,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JgEtGrVyWtqvT944kiVUFdLUGfw=
+			XUPBm8E8vG/qQ3IrpHH/NLdKM3A=
 			</data>
 			<key>hash2</key>
 			<data>
-			3xnTRbOesnlBsHj8IQ2cMmkEGyhGjduJAsBr7jQDlL8=
+			Be1auuxzuJMET/5fQgN1rNOcatVCwd76EzrDUMdSYqU=
 			</data>
 		</dict>
 		<key>Headers/TAVMedia.h</key>

@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
                       "VideoToolbox", "CoreMedia", "JavaScriptCore", "AVFoundation", "CoreML",
                       "MetalPerformanceShaders", "Accelerate", "Metal", "AssetsLibrary", "CoreVideo", "IOSurface"]
 
-  spec.vendored_frameworks = "framework/FFmpeg.xcframework", "framework/TAVMedia.xcframework"
+  spec.vendored_frameworks = "framework/*.xcframework"
 
   spec.libraries = ["iconv", "z", "c++"]
 
